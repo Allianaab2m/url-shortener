@@ -2,12 +2,12 @@ name = "url-shortener"
 compatibility_date = "2024-08-20"
 pages_build_output_dir = "./dist"
 
-# [vars]
-# MY_VAR = "my-variable"
+[vars]
+MY_VAR = "Hono"
 
-# [[kv_namespaces]]
-# binding = "MY_KV_NAMESPACE"
-# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+[[kv_namespaces]]
+binding = "KV"
+id = "8293b62a6e434db7a1bb6edbc2c5cc49"
 
 # [[r2_buckets]]
 # binding = "MY_BUCKET"
@@ -20,3 +20,4 @@ pages_build_output_dir = "./dist"
 
 # [ai]
 # binding = "AI"
+
